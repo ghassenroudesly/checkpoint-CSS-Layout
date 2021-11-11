@@ -1,0 +1,257 @@
+.navbar {
+  overflow: hidden;
+  background-color:transparent;
+  position: fixed;
+  top: 0;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #06e919;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.logodocplanner {
+  width: 15px;
+  height: 33px;
+}
+h1{
+  color: #747474;
+  text-align: center;
+}
+.p {
+  margin: .8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+img {
+  max-width: 15%;
+  height: auto;
+}
+
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+#content {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1{
+  padding-top: 50px;
+  
+}
+
+.section1 p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  text-align: justify;
+  color: #747474;
+  
+}
+.body_logo{
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_sec1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.services-container{
+  
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  }
+
+.services-container-for-patients{
+  
+  width: 30%;
+  background-color: #00ccb1;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 22px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.services-container-for-doctors{
+  
+  background-color: #3d83df;
+  width: 30%;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 22px;
+  margin-top: 10px;
+  margin-right: 15px;
+  
+}
+.services-container-for-clinic{
+  
+  background-color: #131516;
+  width: 30%;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 22px;
+  margin-top: 10px;
+  
+  
+}
+
+.services-container h1, .services-container h2{
+  color: white;
+}
+
+.adress-container{
+  display: flex;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.adress-container h1 {
+  font-family: 'Charmonman', cursive;
+  color:rgb(0,204,177);
+  width: 30%;
+}
+.adress-list-of-links {
+  width:70%;
+  margin-left: 10%;
+}
+.adress-list-of-links ul {
+  list-style-type: none;
+  line-height: 3;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+}
+.adress-list-of-links li {
+  float:left;
+  margin-right: 15px;
+}
+.adress-list-of-links li a {
+  color:rgb(196,196,196);
+  text-decoration: none;
+}
+.adress-list-of-links img {
+  height: 40px;
+}
+
+.stats-container {
+  background: linear-gradient(80deg,white,rgb(0,204,177));
+  display: flex;
+  height: 380px;
+  padding: 4%;
+  overflow: hidden;
+}
+.introduction-box {
+  width: 30%;
+}
+.introduction-box h1 {
+  color: rgb(0,177,159);
+  font-family: 'Charmonman', cursive;
+  margin-bottom: 7%;
+}
+.introduction-box p {
+  opacity: 0.4;
+}
+.introduction-logo img {
+  height: 231px;
+  width: 100%;
+  margin-top: 5%;
+}
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+}
+.stats h1 {
+  color: rgb(0,197,155);
+  font-family: 'Charmonman', cursive;
+}
+  .stats-box {
+      height: 190px;
+      background-color: white;
+      border-radius: 7%;
+      width: 45%;
+      margin-right: 5%;
+  }
+  .stats-box-colomn-2 {
+      display: flex;
+      margin-top:5%;
+  }
+  .stats-box-colomn-1 {
+      display: flex;
+  }
+
+.box-3 p {
+  margin-right: 17%;
+  margin-top: -5%;
+}
+.box-4 p {
+  margin-right: 17%;
+}
+
+.offices-description {
+  text-align: center;
+}
+.offices-description h1 {
+  color: rgb(0,197,155);
+  font-family: 'Charmonman', cursive;
+}
+.offices-description p {
+  text-align: center;
+  color: black;
+  opacity: .7;
+}
+.offices-colomn-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offices-colomn-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.offices-colomn-1 h1 {
+  font-family: 'Charmonman', cursive;
+}
+.offices-box h2 {
+  font-family: 'Charmonman', cursive;
+}
+
+.opening-information {
+  text-align: right;
+  margin-top: -17%;
+}
+.opening-information input {
+  background-color: rgb(61,131,223);
+  color:white;
+  height: 31px;
+  border: radius 40px; 
+}
